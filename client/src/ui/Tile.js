@@ -5,7 +5,7 @@ function Tile({ puzzle, grid, handleChange }) {
     return row.map((col, colIndex) => {
       return (
         <input
-          className={
+          className= {
             puzzle[rowIndex][colIndex] !== 0
               ? "initial"
               : col !== 0
